@@ -19,10 +19,6 @@ function cekValid(){
             }
         }
     }
-
-    $("form").submit(function(event) {
-        event.preventDefault();
-    });
 }
 
 function hitungWR(wr_total, match_total, wr_ranked, match_ranked){
