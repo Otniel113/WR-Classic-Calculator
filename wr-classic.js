@@ -29,3 +29,7 @@ function hitungWR(wr_total, match_total, wr_ranked, match_ranked){
     var wr_classic = win_classic / match_classic * 100;
     return ("Anda Memiliki WR Classic = " + wr_classic.toFixed(2) + "% dengan banyak match = " + match_classic);
 }
+
+$("ValidatorInput").submit(function(event) {
+    event.preventDefault();
+});
